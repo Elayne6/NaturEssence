@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <style>
+       
+* {
+      margin: 2;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 25px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #fbff00;
+    }
+
+    .contenido {
+      padding: 60px 10px;
+    }
+
+    .contenedor {
+      align-items: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-size: 18px;
+      background-color: #1b1a1aa2;
+      transition: background-color 0.3s;
+    }
+
+      .dropdown {
+      position: relative;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 200px;
+      z-index: 1;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #555;
+    }
+
+    .dropdown:hover > a {
+      background-color: #555;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      border-top: 5px solid #ffffff;
+      border-bottom: 5px solid #ffffff;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .line {
+      height: 2px;
+      background: #ffffff;
+      margin: 10px 0;
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <img src="https://png.pngtree.com/png-vector/20230320/ourmid/pngtree-herbal-logo-vector-png-image_6658053.png" width="3%" height="3%" alt="">
+      <li><a href="Untitled-2.html">Inicio</a></li>
+      <li><a href="index.html">Ambientadores y aromatizantes</a></li>
+      <li><a href="Sobre-nosotros.html">Nosotros</a></li>
+      <li><a href="noticias.html">Noticias</a></li>
+      <li><a href="recursos.html">Otros</a></li>
+      <div class="dropdown">
+        <a href="#">Más</a>
+        <div class="dropdown-content">
+           <li><a href="faq.html">Faq</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </div>
+    </ul>
+  </nav>
+    
+        <header>
+            <style>
+                 body {background-color: #ffffff;}
+                p {font-family: 'Arial', sans-serif;}
+                h2 {text-align: center;}
+                h2{font-size: 30px;}
+                p {text-align: center;}
+                p {font-size: 22px;}
+              </style>
+
+              <style>
+
+               summary {
+                font-family: 'arial', serif;   
+                font-size: 20px;               
+                font-weight: bold;             
+                color: #000000;                   
+                cursor: pointer;}
+
+               details {
+                margin-bottom: 10px;}
+</style>
+
+      <h2>Preguntas y Respuestas sobre Ambientadores</h2>
+      <details>
+      <summary>¿Qué es un ambientador?</summary>
+      <p>Un ambientador es un producto diseñado para perfumar ambientes, eliminando o enmascarando malos olores y proporcionando una <br> fragancia agradable en hogares, oficinas, vehículos u otros espacios cerrados.</p>
+      </details>
+
+      <details>
+      <summary>¿Qué tipos de ambientadores existen?</summary>
+      <p>-Sprays o aerosoles: Fragancia instantánea. <br>
+        
+        -Difusores eléctricos: Dispersan aroma de manera continua. <br>
+        
+        -Velas aromáticas: Combinan fragancia con iluminación ambiental. <br>
+        
+        -Mikados o difusores de varillas: Libera el aroma de forma natural. <br>
+        
+        -Ambientadores automáticos: Programables para liberar fragancia a intervalos. <br>
+        
+        -Ambientadores para coche: Diseñados para espacios pequeños como automóviles. <br> </p>
+        </details>
+
+        <details>
+        <summary> ¿Cuánto tiempo dura un ambientador?</summary>
+        <p>-Un spray dura hasta que se consume. <br>
+
+          -Un difusor de varillas puede durar entre 4 y 8 semanas. <br>
+          
+          -Un ambientador eléctrico puede ofrecer fragancia continua por hasta 60 días. <br> </p>
+          </details>
+
+          <details>
+            <summary>¿Es seguro usar ambientadores cerca de niños o mascotas?</summary>
+          <p>Muchos ambientadores son seguros si se usan correctamente, <br> pero algunos contienen ingredientes que pueden ser irritantes. Se recomienda:</p>
+          <p>-Elegir productos naturales o sin químicos agresivos. <br>
+
+            -Mantener los ambientadores fuera del alcance de niños y mascotas. <br>
+            
+            -Ventilar bien los espacios. <br></p>
+          </details>
+
+           <details>
+        <summary>¿Los ambientadores eliminan los malos olores o solo los disimulan?</summary>
+            <p>Depende del producto. Algunos ambientadores simplemente cubren los olores con fragancia, mientras que otros, <br> como los neutralizadores de olores, eliminan las moléculas causantes del mal olor.</p>
+          </details>
+            
+            <details>
+              <summary>¿Qué debo considerar al elegir un ambientador?</summary>
+            <p>-El tamaño del espacio. <br>
+
+              -Preferencias de fragancia (floral, cítrica, amaderada, etc.). <br>
+              
+              -Sensibilidades o alergias personales. <br>
+              
+              -Tiempo de duración y frecuencia de uso. <br></p>
+            </details>
+
+              <details>
+                <summary>¿Hay ambientadores ecológicos o naturales?</summary>
+              <p>Sí, existen opciones elaboradas con ingredientes naturales, sin aerosoles ni compuestos químicos agresivos. <br> Algunos incluyen aceites esenciales, extractos de plantas y envases biodegradables o reciclables.</p>
+            </details>
+              
+              <details>
+                <summary>¿Puedo hacer mis propios ambientadores caseros?</summary>
+              <p>Claro, es posible crear ambientadores caseros usando ingredientes como bicarbonato de sodio, aceites esenciales, <br> agua destilada y alcohol. Son una excelente alternativa natural y económica.</p>
+            </details>
+
+      <h2>Preguntas y Respuestas sobre Aromatizantes</h2>
+
+      <details>
+        <summary>¿Qué es un aromatizante?</summary>
+      <p>Un aromatizante es un producto diseñado para perfumar un espacio, un objeto o incluso textiles. <br> Su principal función es proporcionar una fragancia agradable de manera inmediata o prolongada.</p>
+    </details>
+      
+      <details>
+        <summary>¿Cuál es la diferencia entre un aromatizante y un ambientador?</summary>
+      <p>Un ambientador suele tener la función de neutralizar malos olores además de perfumar, <br> mientras que el aromatizante está más enfocado exclusivamente en añadir o reforzar una fragancia en el ambiente.</p>
+    </details>
+      
+      <details>
+        <summary>¿Qué tipos de aromatizantes existen?</summary>
+      <p>Aerosoles aromáticos. <br>
+
+        Aromatizantes para textiles (ropas, cortinas, muebles). <br>
+        
+        Aromatizantes para autos. <br>
+        
+        Aromatizantes eléctricos o en gel. <br>
+        
+        Aromatizantes en spray concentrado. <br></p>
+      </details>
+        
+        <details>
+          <summary>¿Dónde se pueden usar los aromatizantes?</summary>
+        <p>Hogares (salas, baños, cocinas). <br>
+
+          Oficinas. <br>
+          
+          Automóviles. <br>
+          
+          Hoteles y espacios comerciales. <br>
+          
+          Ropa, cortinas, muebles, alfombras (en caso de ser aptos para textiles). <br></p>
+        </details>
+          
+          <details>
+            <summary>¿Son seguros los aromatizantes para personas alérgicas o asmáticas?</summary>
+          <p>Algunas fórmulas pueden contener ingredientes que irritan a personas sensibles. Si tienes alergias o asma, es recomendable optar por aromatizantes <br> naturales o hipoalergénicos, y siempre ventilar bien los espacios tras su uso.</p>
+        </details>
+          
+          <details>
+            <summary>¿Cuánto dura el efecto de un aromatizante?</summary>
+          <p>Un spray puede durar horas en el ambiente. <br>
+
+            Aromatizantes en gel o eléctricos pueden ofrecer fragancia continua durante semanas. <br></p>
+          </details>
+            
+            <details>
+              <summary>¿Se pueden usar aromatizantes sobre tejidos o ropa?</summary>
+            <p>Sí, pero es importante utilizar aromatizantes específicos para textiles para evitar manchas o daños. <br> Estos productos están formulados para ser seguros en telas.</p>
+          </details>
+            
+            <details>
+              <summary>¿Qué fragancias son más populares en aromatizantes?</summary>
+            <p>Lavanda (relajante). <br>
+
+              Cítricos como limón o naranja (refrescantes). <br>
+              
+              Vainilla (dulce y acogedora). <br>
+              
+              Eucalipto o menta (revitalizante). <br>
+              
+              Flores blancas y jazmín (elegantes). <br></p>
+            </details>
+              
+              <details>
+                <summary>¿Existen aromatizantes ecológicos?</summary>
+              <p>Sí, cada vez hay más aromatizantes elaborados con ingredientes naturales, sin propulsores químicos, y en envases reciclables. <br> Son una excelente opción para quienes buscan cuidar el medio ambiente.</p>
+            </details>
+              
+              <details>
+                <summary>¿Cómo elegir el mejor aromatizante para mi espacio?</summary>
+              <p>El tamaño del área a aromatizar. <br>
+
+                El tipo de fragancia deseada. <br>
+                
+                La duración del aroma que prefieres. <br>
+                
+                Si necesitas una opción segura para mascotas, niños o personas alérgicas. <br></p>
+              </details>
+
+    <footer>
+        <p>© NaturEssence</p>
+    </footer>
+
+</body>
+</html>
